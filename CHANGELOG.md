@@ -8,6 +8,8 @@
 #### New Inputs
 
 - [bind](/plugins/inputs/bind/README.md) - Contributed by @dswarbrick & @danielllek
+- [cisco_telemetry_gnmi](/plugins/inputs/cisco_telemetry_gnmi/README.md) - Contributed by @sbyx
+- [cisco_telemetry_mdt](/plugins/inputs/cisco_telemetry_mdt/README.md) - Contributed by @sbyx
 - [ecs](/plugins/inputs/ecs/README.md) - Contributed by @rbtr
 - [github](/plugins/inputs/github/README.md) - Contributed by @influxdata
 - [openweathermap](/plugins/inputs/openweathermap/README.md) - Contributed by @regel
@@ -55,6 +57,7 @@
 - [#5831](https://github.com/influxdata/telegraf/pull/5831): Support passive queue declaration in amqp_consumer.
 - [#5901](https://github.com/influxdata/telegraf/pull/5901): Set user agent in stackdriver output.
 - [#5885](https://github.com/influxdata/telegraf/pull/5885): Extend metrics collected from Nvidia GPUs.
+- [#5547](https://github.com/influxdata/telegraf/pull/5547): Add file rotation support to the file output.
 
 #### Bugfixes
 
@@ -76,6 +79,7 @@
 - [#5920](https://github.com/influxdata/telegraf/issues/5920): Fixed datastore name mapping in vsphere input.
 - [#5879](https://github.com/influxdata/telegraf/issues/5879): Fix multiple SIGHUP causes Telegraf to shutdown.
 - [#5891](https://github.com/influxdata/telegraf/issues/5891): Fix connection leak in influxdb outputs on reload.
+- [#5858](https://github.com/influxdata/telegraf/issues/5858): Fix batch fails when single metric is unserializable.
 
 ## v1.10.4 [2019-05-14]
 
